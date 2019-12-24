@@ -14,7 +14,9 @@
 
 
 
-    <H1>Hello world</H1>
+    <?php 
+    echo'Hello world';
+    ?>
 
 
 </body>
