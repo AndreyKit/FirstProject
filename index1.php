@@ -16,13 +16,13 @@
 <?php 
 
 
-    $a=3;
+    $a = 3;
 
 
-    echo"\$a=$a";
+    echo "\$a=$a";
 
 
-    echo"<br>";
+    echo "<br>";
 
 ?>
 
