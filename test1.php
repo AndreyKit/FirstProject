@@ -14,7 +14,7 @@
 
 
 
-     <!-- <?php
+      <!-- <?php
     $a = 5;
     if ($a == 5) : ?>
         A is equal 5
@@ -62,7 +62,7 @@
        
     }
      echo $s
-    ?> -->
+    ?> 
     <?php 
 $arr = array("null","one","two");
 
@@ -73,8 +73,31 @@ $arr = array("one","two","three");
 
 foreach ($arr as $value){
     echo "Value: $value<br/>\n";
+} ?> -->
+
+<?php
+$s=0;
+$arr = array(10,20,30,40);
+
+foreach($arr as $name) {
+    $s = $s + $name;
 }
+echo $s;
+
+$i= 1;
+while ($i <= 10){
+
+    echo $i++;
+}
+
     ?>
+    <?php 
+    $i=1;
+    while($i <= 10):
+        echo $i;
+        $i++;
+    endwhile;
+        ?>
 </body>
 
 </html>
