@@ -9,7 +9,7 @@
 </head>
 
 <body>
-   <!-- <?php
+    <?php
     $makefoo = true;
     bar();
     if ($makefoo) {
@@ -23,7 +23,7 @@ if ($makefoo) foo();
  function bar () {
     echo" I exist emmediatly.\n";
 }
-    ?> -->
+    ?> 
     
 </body>
 
