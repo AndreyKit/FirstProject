@@ -8,7 +8,10 @@
 </head>
 <body>
   <?php 
-  $n = 4;
+  $n = 6;
+  $d=0;
+  $e=1;
+  $f=3;
   $factorial = 1;
    
   for ($i = 1; $i <= $n; $i++) {
