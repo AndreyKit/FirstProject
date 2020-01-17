@@ -9,15 +9,14 @@
 <body>
   <?php 
  
-  
-//   $n=3;
-//   $factorial = 1;
+
 function factorial($n)
 {
    $f=1;
   for ($i = 1; $i <= $n; $i++) {
-      $f * $i= $f;
+      $f = $f * $i;
   }
+  return $f;
 }
   echo factorial(0);
   echo "<br>";
