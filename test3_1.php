@@ -8,16 +8,25 @@
 </head>
 <body>
   <?php 
-  $n = 6;
-  $d=0;
-  $e=1;
-  $f=3;
-  $factorial = 1;
-   
+ 
+  
+//   $n=3;
+//   $factorial = 1;
+function factorial($n)
+{
+   $f=1;
   for ($i = 1; $i <= $n; $i++) {
-      $factorial *= $i;
+      $f * $i= $f;
   }
-  echo $factorial;
+}
+  echo factorial(0);
+  echo "<br>";
+  echo factorial(1);
+  echo "<br>";
+  echo factorial(2);
+  echo "<br>";
+  echo factorial(3);
+  echo "<br>";
   ?>
 </body>
 </html>
