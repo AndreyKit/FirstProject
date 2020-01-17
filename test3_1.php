@@ -7,17 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-    $array = array(10, 21, 32, 44, 65, 26);
-    function numb($array){
-        for($i=1; $i <= count($array); $i++) {
-            if ($array[$i] > $max){
-                $max = $array[$i];
-            }
-        }
-             return $max
-    }
-    echo numb($array)
-    ?>
+  <?php 
+  $n = 4;
+  $factorial = 1;
+   
+  for ($i = 1; $i <= $n; $i++) {
+      $factorial *= $i;
+  }
+  echo $factorial;
+  ?>
 </body>
 </html>
