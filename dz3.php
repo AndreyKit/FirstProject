@@ -18,7 +18,7 @@ $f[] = $f[$i] + $f [$i - 1];
       return $f;
   }  
   echo "<pre>";
-  print_r(fibonacci(5));
+  print_r(fibonacci(10));
     ?>
 </body>
 </html>
