@@ -11,6 +11,9 @@
     $fp = fopen ("file.txt", "w+");
     fwrite ($fp, "Test");
     fclose ($fp);
+    
+rename("OSPanel\domains\AndreyKit\FirstProject\gidhub\file.txt", "OSPanel\domains\AndreyKit\FirstProject\gidhub\newfile.txt");
+
     ?>
 </body>
 </html>
