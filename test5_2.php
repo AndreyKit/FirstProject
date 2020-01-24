@@ -7,11 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-<?php
-
-$s=file("stat.txt"); 
-echo "Количество скачек/кликов: $s[0]"; 
-
-?>
+    <?php 
+    echo $f = file_get_contents("counter.txt") + 1;
+    file_put_contents("counter.txt", $f);
+    
+    ?>
 </body>
 </html>
