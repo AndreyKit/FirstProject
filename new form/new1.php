@@ -8,7 +8,13 @@
 </head>
 <body>
     <?php 
-    
-    ?>
+    $arr = file("new2.csv");
+?>
+<h1><?=$arr[0]?></h1>
+
+<? 
+
+?>
+
 </body>
 </html>
