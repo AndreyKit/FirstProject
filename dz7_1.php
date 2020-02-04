@@ -44,7 +44,7 @@
             color: black;
             margin: 10px 5px;
             text-align: center;
-            font-size: 35px;
+            font-size: 25px;
             
         }
     </style>
@@ -52,7 +52,10 @@
 <form action="dz7.php" method="get" target="_blank">
     <div class="list">
         <p>What subject would you like to lern</p>
-        <div class="lixtdown">
+       
+
+<body>
+<div class="lixtdown">
             <input type="Radio" name="vote" value="1" checked> Html & CSS
             <hr>
             <input type="Radio" name="vote" value="2"> Java Script
@@ -68,14 +71,11 @@
 
 
         </div>
-        <input type="Sumbit" value="VOTE" id="noname">
+        <input type="accept" value="VOTE" id="noname">
     </div>
 
 
 </form>
-
-<body>
-
 </body>
 
 </html>
