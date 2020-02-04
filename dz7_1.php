@@ -49,7 +49,7 @@
         }
     </style>
 </head>
-<form action="dz7.php" method="get" target="_blank">
+<!-- <form action="dz7.php" method="get" target="_blank">
     <div class="list">
         <p>What subject would you like to lern</p>
        
@@ -75,7 +75,20 @@
     </div>
 
 
+</form> -->
+<div class="main">
+<form action="dz7" method="post">
+    <?php $arr = file("dz7.txt"); ?>
+    <div class="input">
+        <?
+        for ($i = 1; $i < count($arr);$i++){
+            $buf=explode("-", $arr[$i])[0];
+        } 
+        ?>
+    </div>
 </form>
+
+</div>
 </body>
 
 </html>
