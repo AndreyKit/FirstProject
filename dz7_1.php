@@ -71,7 +71,7 @@
 
 
         </div>
-        <input type="accept" value="VOTE" id="noname">
+        <input type="button" value="VOTE" id="noname" href="dz7.php">
     </div>
 
 
