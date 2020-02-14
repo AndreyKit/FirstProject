@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php 
-    echo time();
+    echo microtime(0);
+
+    echo microtime(1);
     ?>
 </body>
 </html>
